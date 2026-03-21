@@ -1,15 +1,15 @@
 class Pogoda < Formula
   desc "Terminal Weather Forecast"
   homepage "https://github.com/akurczyk/pogoda"
-  version "0.8"
+  version "0.9"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/akurczyk/pogoda/releases/download/v0.8/pogoda-aarch64-apple-darwin.tar.gz"
-      sha256 "0224aa4b1663a541dd9bd05c3d626cb24ade5028fcf189de4e069b4e1d4a3e46"
+      url "https://github.com/akurczyk/pogoda/releases/download/v0.9/pogoda-aarch64-apple-darwin.tar.gz"
+      sha256 "f905f2a42469f5d8c77b361d521430a9aa363b42cd4145e3b26255c871e77e0a"
     else
-      url "https://github.com/akurczyk/pogoda/releases/download/v0.8/pogoda-x86_64-apple-darwin.tar.gz"
-      sha256 "15eaad07bc58183f1b561070fc25931005f8fd92b6cd0f1c10c7a0165fd12962"
+      url "https://github.com/akurczyk/pogoda/releases/download/v0.9/pogoda-x86_64-apple-darwin.tar.gz"
+      sha256 "183e9dfc4d5ca769dab5c77546ea0d06f639db4b0e04364674e0288a305d2429"
     end
   end
 
